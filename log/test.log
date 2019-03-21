@@ -476,6 +476,7 @@ Completed 200 OK in 19ms (Views: 15.5ms | ActiveRecord: 0.0ms)
   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
 Started GET "/hello_world" for 127.0.0.1 at 2019-03-13 15:33:08 +0000
 >>>>>>> 7519a6ff87154c382e7bd2d30ad969c223d087aa
+<<<<<<< HEAD
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
@@ -648,4 +649,6 @@ Processing by WelcomeController#hello_world as HTML
   Rendered welcome/hello_world.html.erb within layouts/application (0.3ms)
   Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
 Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+=======
+>>>>>>> 36ee1d9796b8b5a2fad677d90b90031d374fa90c
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
